@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
 
-        //jedis的方法名基本与redis命令类似
+        //jedis的方法名基本与redis命令类似 git
         //需要关闭linux防火墙 和修改配置文件bind和保护机制
         Jedis jedis=new Jedis("192.168.136.129",6379);
         //jedis.auth("a534772349");
